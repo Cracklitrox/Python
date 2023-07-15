@@ -1,0 +1,14 @@
+print("----------------------------------------------------------------------");
+print("Bienvenido al sistema Duoc UC, se le consultaran los siguientes datos:");
+print("----------------------------------------------------------------------");
+print("");
+print("----------------------------------------------------------------------");
+nom=input("Ingrese su nombre: ");
+rut=int(input("Ingrese su rut (sin puntos ni guion): "));
+correo=input("Ingrese su correo institucional: ");
+tel=int(input("Ingrese su numero de telefóno: "));
+print("----------------------------------------------------------------------");
+print("");
+print("----------------------------------------------------------------------");
+print(f"Su nombre es: {nom}\nSu rut es: {rut}\nSu correo institucional es: {correo}\nSu telefóno es: {tel}");
+print("----------------------------------------------------------------------");
